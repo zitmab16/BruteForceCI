@@ -3,9 +3,9 @@ from password import Password
 
 class TestPassword(TestCase):
     def test_check(self):
-         pwd =Password("abc")
+        pwd = Password("abc")
         self.assertEqual(True,pwd.check("abc"))
 
     def test_check2(self):
-         pwd =Password("abc")
+        pwd = Password("adc")
         self.assertEqual(True,pwd.check("abc"))
